@@ -1,0 +1,13 @@
+.container {
+	width: 100%;
+}
+
+.container .intro {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: gainsboro;
+}
+
+.container .tech {
+	margin-top: -21px;
+}

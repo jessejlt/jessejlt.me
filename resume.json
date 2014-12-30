@@ -1,0 +1,139 @@
+{
+	"about": "Web services engineer. Photographer. Outdoor Enthusiast.",
+	"experience": [
+		{
+			"company": "Adobe Systems",
+			"team": "Creative Cloud",
+			"start": "2012",
+			"end": "current",
+			"tasks": [
+				{
+					"overview": "API for publicly sharing media and groups of media",
+					"breakdown": [
+						"Globally distributed and highly scalable micro service written in Go"
+					]
+				},
+				{
+					"overview": "API for collaborating on media, creative libraries, and mobile creations",
+					"breakdown": [
+						"Globally distributed and highly scalable micro service written in Go"
+					]
+				},
+				{
+					"overview": "Workers supporting public sharing of media and private collaboration",
+					"breakdown": [
+						"Render various sizes of publicly shared media and distributing them to CDN",
+						"Update ACLs"
+					]
+				},
+				{
+					"overview": "Event generator and notification delivery service",
+					"breakdown": [
+						"Provides notifications to user-facing application and services",
+						"Event generator that provides cache invalidation and jobs for workers based on notification stream",
+						"Written in Go"
+					]
+				},
+				{
+					"overview": "API and various backend services for the Creative Cloud web experience",
+					"breakdown": [
+						"Written in node.js"
+					]
+				},
+				{
+					"overview": "Ported the original Creative Cloud Ruby-based monolith to node.js"
+				}
+			]
+		},
+		{
+			"company": "Adobe Systems",
+			"team": "DVA Tools",
+			"start": "2012",
+			"end": "2012",
+			"tasks": [
+				{
+					"overview": "Video validation and reporting infrastructure",
+					"breakdown": [
+						"Provides an automated service by which our desktop applications can submit video samples that are analyzed, frame by frame, reporting any perceptual artifacts, distortions, or color variations"
+					]
+				},
+				{
+					"overview": "Performance testbed for our video-based desktop applications"
+				},
+				{
+					"overview": "Advisory role supporting various teams’ automated testing efforts"
+				}
+			]
+		},
+		{
+			"company": "Adobe Systems",
+			"team": "Adobe Media Encoder",
+			"start": "2011",
+			"end": "2012",
+			"tasks": [
+				{
+					"overview": "Sample accurate audio encoder validation testing framework"
+				},
+				{
+					"overview": "Automated performance testbed"
+				},
+				{
+					"overview": "Bootstrap automated testing framework"
+				}
+			]
+		},
+		{
+			"company": "Adobe Systems",
+			"team": "Mediacore",
+			"start": "2009",
+			"end": "2011",
+			"tasks": [
+				{
+					"overview": "Bootstrap automated testing framework"
+				},
+				{
+					"overview": "Automated performance testing"
+				},
+				{
+					"overview": "Isolated pixel conversion validation"
+				}
+			]
+		},
+		{
+			"company": "Adobe Systems",
+			"team": "Audition",
+			"start": "2007",
+			"end": "2009",
+			"tasks": [
+				{
+					"overview": "Maintain and extend automated testing framework"
+				},
+				{
+					"overview": "Cross-team test reporting service"
+				}
+			]
+		}
+	],
+	"technology": [
+		{
+			"name": "golang",
+			"proficiency": 90
+		},
+		{
+			"name": "node.js",
+			"proficiency": 95
+		},
+		{
+			"name": "Javascript",
+			"proficiency": 90
+		},
+		{
+			"name": "C++",
+			"proficiency": 45
+		},
+		{
+			"name": "Python",
+			"proficiency": 80
+		}
+	]
+}
