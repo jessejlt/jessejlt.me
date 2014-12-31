@@ -8,7 +8,6 @@ import (
 )
 
 type resume struct {
-	About      string
 	Experience []struct {
 		Company string
 		Team    string
