@@ -78,30 +78,12 @@
 		<section name="technology"></section>
 		<div class="container tech">
 			<div class="row">
-				<div class="row">
 				<div class="col-md-3 col-md-offset-1">
 					<h5>Technology</h5>
 				</div>
 				<div class="col-md-4">
 					<p>I’ve shipped production applications and services using Golang, Javascript, node.js, and C++, mostly utilizing AWS and Docker. I have passing knowledge of GCE.</p>
 				</div>
-				<div class="col-md-4">
-					<dl class="dl-horizontal">
-
-						{{range .Technology}}
-						<dt>{{.Name}}</dt>
-						<dd>
-							<div class="progress">
-							  <div class="progress-bar" role="progressbar" aria-valuenow="{{.Proficiency}}" aria-valuemin="0" aria-valuemax="100" style="width: {{.Proficiency}}%;">
-							    <span class="sr-only">{{.Proficiency}}% Complete</span>
-							  </div>
-							</div>
-						</dd>
-						{{end}}
-
-					</dl>
-				</div>
-			</div>
 			</div>
 		</div>
 
