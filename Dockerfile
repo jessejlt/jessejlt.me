@@ -1,8 +1,5 @@
 FROM dockerfile/nginx
 
-ADD ssl/server.cert /etc/nginx/certs/
-ADD ssl/server.key /etc/nginx/certs/
-
 RUN rm /etc/nginx/sites-available/default
 ADD home /etc/nginx/sites-available/default
 
