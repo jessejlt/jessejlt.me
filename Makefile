@@ -3,6 +3,7 @@
 default: run
 
 build:
+	go run template.go && \
 	docker build -t jessejlt.me .
 
 run: build
