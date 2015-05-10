@@ -1,7 +1,7 @@
 About
 ---
 
-Implementation for [jessejlt.me](https://jessejlt.me)
+Implementation for [jessejlt.me](http://jessejlt.me)
 
 Hack
 ---
