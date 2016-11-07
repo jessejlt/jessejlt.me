@@ -1,120 +1,135 @@
 {
-	"experience": [
-		{
-			"company": "Adobe Systems",
-			"team": "Creative Cloud",
-			"start": "2012",
-			"end": "current",
-			"tasks": [
-				{
-					"overview": "APIs and supporting services for the sharing and collaboration of creative content",
-					"breakdown": [
-						"Globally distributed and highly scalable micro services that are mostly written in Go",
-						"Workers that support fan-out of jobs based on events and notifications as aggregated from various sources"
-					]
-				},
-				{
-					"overview": "Port Creative Cloud's aging Ruby infrastructure to node.js",
-					"breakdown": [
-						"Break apart Ruby monolith into node.js based micro services"
-					]
-				}
-			]
-		},
-		{
-			"company": "Adobe Systems",
-			"team": "DVA Tools, Adobe Media Encode",
-			"start": "2012",
-			"end": "2011",
-			"tasks": [
-				{
-					"overview": "Video validation and reporting infrastructure",
-					"breakdown": [
-						"Provides an automated service by which our desktop applications can submit video samples that are analyzed, frame by frame, reporting any perceptual artifacts, distortions, or color variations"
-					]
-				},
-				{
-					"overview": "Performance automation for our video-based desktop applications",
-					"breakdown": [
-						"Per-build performance tracking and alerting of media engine"
-					]
-				},
-				{
-					"overview": "Advisory role supporting various teams’ automation efforts",
-					"breakdown": [
-						"Tool choices",
-						"Determine what to track",
-						"Systems design"
-					]
-				},
-				{
-					"overview": "Media catalog service",
-					"breakdown": [
-						"Create a repository for internal media resources used in software validation",
-						"Search via Elasticsearch",
-						"Automatic tagging and organization"
-					]
-				}
-			]
-		},
-		{
-			"company": "Adobe Systems",
-			"team": "Mediacore",
-			"start": "2009",
-			"end": "2011",
-			"tasks": [
-				{
-					"overview": "Bootstrap automated validation framework",
-					"breakdown": [
-						"Validation media imports and exporters",
-						"Sample accurate frame analysis"
-					]
-				}
-			]
-		},
-		{
-			"company": "Adobe Systems",
-			"team": "Audition",
-			"start": "2007",
-			"end": "2009",
-			"tasks": [
-				{
-					"overview": "Wrote scripting engine to support QE automation",
-					"breakdown": [
-						"ECMAScript engine for replaying UI interactions to drive QE workflows"
-					]
-				},
-				{
-					"overview": "Cross-team test reporting service",
-					"breakdown": [
-						"Aggregate validation results",
-						"Automated reporting",
-						"Trend analysis"
-					]
-				}
-			]
-		}
-	],
-	"technology": [
-		{
-			"name": "Go",
-			"proficiency": 95
-		},
-		{
-			"name": "node.js",
-			"proficiency": 95
-		},
-		{
-			"name": "JavaScript",
-			"proficiency": 90
-		},
-		{
-			"name": "C++",
-			"proficiency": 60
-		},
-		{
-			"name": "Python",
-			"proficiency": 80
-		}
-	]
+  "experience": [
+    {
+        "company": "Comcast",
+        "team": "Content Origination",
+        "start": "2015",
+        "end": "current",
+        "tasks": [
+            {
+                "overview": "Engineering lead for a greenfield project to package Video on Demand content for IP delivery.",
+                "breakdown": [
+                    "MPEGTS packager w/ encryption-at-rest.",
+                    "Written in Go. Continuous delivery on Kubernetes."
+                ]
+            }
+        ]
+    },
+    {
+      "company": "Adobe Systems",
+      "team": "Creative Cloud",
+      "start": "2012",
+      "end": "2015",
+      "tasks": [
+        {
+          "overview": "APIs and supporting services for the sharing and collaboration of creative content.",
+          "breakdown": [
+            "Globally distributed and highly scalable micro services that are mostly written in Go",
+            "Workers that support fan-out of jobs based on events and notifications as aggregated from various sources"
+          ]
+        },
+        {
+          "overview": "Port Creative Cloud's aging Ruby infrastructure to node.js.",
+          "breakdown": [
+            "Break apart Ruby monolith into node.js based micro services"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Adobe Systems",
+      "team": "DVA Tools, Adobe Media Encode",
+      "start": "2012",
+      "end": "2011",
+      "tasks": [
+        {
+          "overview": "Video validation and reporting infrastructure",
+          "breakdown": [
+            "Provides an automated service by which our desktop applications can submit video samples that are analyzed, frame by frame, reporting any perceptual artifacts, distortions, or color variations"
+          ]
+        },
+        {
+          "overview": "Performance automation for our video-based desktop applications",
+          "breakdown": [
+            "Per-build performance tracking and alerting of media engine"
+          ]
+        },
+        {
+          "overview": "Advisory role supporting various teams’ automation efforts",
+          "breakdown": [
+            "Tool choices",
+            "Determine what to track",
+            "Systems design"
+          ]
+        },
+        {
+          "overview": "Media catalog service",
+          "breakdown": [
+            "Create a repository for internal media resources used in software validation",
+            "Search via Elasticsearch",
+            "Automatic tagging and organization"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Adobe Systems",
+      "team": "Mediacore",
+      "start": "2009",
+      "end": "2011",
+      "tasks": [
+        {
+          "overview": "Bootstrap automated validation framework",
+          "breakdown": [
+            "Validation media imports and exporters",
+            "Sample accurate frame analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Adobe Systems",
+      "team": "Audition",
+      "start": "2007",
+      "end": "2009",
+      "tasks": [
+        {
+          "overview": "Wrote scripting engine to support QE automation",
+          "breakdown": [
+            "ECMAScript engine for replaying UI interactions to drive QE workflows"
+          ]
+        },
+        {
+          "overview": "Cross-team test reporting service",
+          "breakdown": [
+            "Aggregate validation results",
+            "Automated reporting",
+            "Trend analysis"
+          ]
+        }
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "name": "Go",
+      "proficiency": 95
+    },
+    {
+      "name": "node.js",
+      "proficiency": 95
+    },
+    {
+      "name": "JavaScript",
+      "proficiency": 90
+    },
+    {
+      "name": "C++",
+      "proficiency": 60
+    },
+    {
+      "name": "Python",
+      "proficiency": 80
+    }
+  ]
 }
