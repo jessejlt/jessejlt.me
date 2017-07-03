@@ -7,7 +7,23 @@
         "end": "current",
         "tasks": [
             {
-                "overview": "Engineering lead for a greenfield project to package Video on Demand content for IP delivery.",
+                "overview": "Leading a cross-organization team to build a multi-datacenter replication and synchronization solution for our IP-content storage solution.",
+                "breakdown": [
+                    "Open sourcing a reliable UDP-based protocol for bulk object transfers.",
+                    "Object replication and state synchronization at a scale of over 20k transactions / second",
+                    "Written in Go. Continuous delivery on Kubernetes."
+                ]
+            }
+        ]
+    },
+    {
+        "company": "Comcast",
+        "team": "Content Origination",
+        "start": "2015",
+        "end": "current",
+        "tasks": [
+            {
+                "overview": "Lead engineer for a greenfield project to package Video on Demand content for IP delivery.",
                 "breakdown": [
                     "MPEGTS packager w/ encryption-at-rest.",
                     "Written in Go. Continuous delivery on Kubernetes."

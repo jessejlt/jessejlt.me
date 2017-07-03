@@ -1,238 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Resume - Jesse Thompson</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume - Jesse Thompson</title>
 
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/base.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
 
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-   		<![endif]-->
-	</head>
-	<body>
-		<!-- ABOUT -->
-		<section name="about"></section>
-		<div class="jumbotron">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 col-md-offset-1">
-						<p>I started out writing automated software validation systems, moved to writing support tools, then desktop software, and now write backend services. I'm active in local meetups and stay current with the latest technologies and methodologies. Constant improvement. Highly enthusiastic.
-						</p>
-					</div>
-					<div class="col-md-2">
-						<address>
-							<strong>Jesse Thompson</strong>
-							<strong>Seattle, WA </strong>
-							</br>
-							<small>willing to relocate</small>
-							</br>
-							<a href="mailto:#">contact@jessejlt.me</a>
-							</br>
-							<a href="https://twitter.com/jessejlt">twitter</a>
-							</br>
-							<a href="https://github.com/jessejlt">github</a>
-							</br>
-							<a href="https://www.linkedin.com/pub/jesse-thompson/90/556/338">linkedin</a>
-						</address>
-					</div>
-				</div>
-			</div>
-		</div>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+    <!-- ABOUT -->
+    <section name="about"></section>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-1">
+            <p>I started out writing automated software validation systems, moved to writing support tools, then desktop software, and now write backend services. I'm active in local meetups and stay current with the latest technologies and methodologies. Constant improvement. Highly enthusiastic.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <address>
+              <strong>Jesse Thompson</strong>
+              <strong>Seattle, WA </strong>
+              </br>
+              <small>willing to relocate</small>
+              </br>
+              <a href="mailto:#">contact@jessejlt.me</a>
+              </br>
+              <a href="https://twitter.com/jessejlt">twitter</a>
+              </br>
+              <a href="https://github.com/jessejlt">github</a>
+              </br>
+              <a href="https://www.linkedin.com/pub/jesse-thompson/90/556/338">linkedin</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- EXPERIENCE -->
-		<section name="experience"></section>
-		<div class="container experience">
-			
-			<div class="row page-header">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>Comcast, Content Origination</h5>
-				</div>
-				<div class="col-md-4">
-					<dl>
-						
-						<dt>Engineering lead for a greenfield project to package Video on Demand content for IP delivery.</dt>
+    <!-- EXPERIENCE -->
+    <section name="experience"></section>
+    <div class="container experience">
 
-							
-							<dd>- MPEGTS packager w/ encryption-at-rest.</dd>
-							
-							<dd>- Written in Go. Continuous delivery on Kubernetes.</dd>
-							
+      <div class="row page-header">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Comcast, Content Origination</h5>
+        </div>
+        <div class="col-md-4">
+          <dl>
 
-						
-					</dl>
-				</div>
-				<div class="col-md-4">
-					<h6>2015 - current</h6>
-				</div>
-			</div>
-			
-			<div class="row page-header">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>Adobe Systems, Creative Cloud</h5>
-				</div>
-				<div class="col-md-4">
-					<dl>
-						
-						<dt>APIs and supporting services for the sharing and collaboration of creative content.</dt>
+            <dt>Leading a cross-organization team to build a multi-datacenter replication and synchronization solution for our IP-content storage solution.</dt>
 
-							
-							<dd>- Globally distributed and highly scalable micro services that are mostly written in Go</dd>
-							
-							<dd>- Workers that support fan-out of jobs based on events and notifications as aggregated from various sources</dd>
-							
 
-						
-						<dt>Port Creative Cloud's aging Ruby infrastructure to node.js.</dt>
+              <dd>- Open sourcing a reliable UDP-based protocol for bulk object transfers.</dd>
 
-							
-							<dd>- Break apart Ruby monolith into node.js based micro services</dd>
-							
+              <dd>- Object replication and state synchronization at a scale of over 20k transactions / second</dd>
 
-						
-					</dl>
-				</div>
-				<div class="col-md-4">
-					<h6>2012 - 2015</h6>
-				</div>
-			</div>
-			
-			<div class="row page-header">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>Adobe Systems, DVA Tools, Adobe Media Encode</h5>
-				</div>
-				<div class="col-md-4">
-					<dl>
-						
-						<dt>Video validation and reporting infrastructure</dt>
+              <dd>- Written in Go. Continuous delivery on Kubernetes.</dd>
 
-							
-							<dd>- Provides an automated service by which our desktop applications can submit video samples that are analyzed, frame by frame, reporting any perceptual artifacts, distortions, or color variations</dd>
-							
 
-						
-						<dt>Performance automation for our video-based desktop applications</dt>
 
-							
-							<dd>- Per-build performance tracking and alerting of media engine</dd>
-							
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <h6>2015 - current</h6>
+        </div>
+      </div>
 
-						
-						<dt>Advisory role supporting various teams’ automation efforts</dt>
+      <div class="row page-header">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Comcast, Content Origination</h5>
+        </div>
+        <div class="col-md-4">
+          <dl>
 
-							
-							<dd>- Tool choices</dd>
-							
-							<dd>- Determine what to track</dd>
-							
-							<dd>- Systems design</dd>
-							
+            <dt>Lead engineer for a greenfield project to package Video on Demand content for IP delivery.</dt>
 
-						
-						<dt>Media catalog service</dt>
 
-							
-							<dd>- Create a repository for internal media resources used in software validation</dd>
-							
-							<dd>- Search via Elasticsearch</dd>
-							
-							<dd>- Automatic tagging and organization</dd>
-							
+              <dd>- MPEGTS packager w/ encryption-at-rest.</dd>
 
-						
-					</dl>
-				</div>
-				<div class="col-md-4">
-					<h6>2012 - 2011</h6>
-				</div>
-			</div>
-			
-			<div class="row page-header">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>Adobe Systems, Mediacore</h5>
-				</div>
-				<div class="col-md-4">
-					<dl>
-						
-						<dt>Bootstrap automated validation framework</dt>
+              <dd>- Written in Go. Continuous delivery on Kubernetes.</dd>
 
-							
-							<dd>- Validation media imports and exporters</dd>
-							
-							<dd>- Sample accurate frame analysis</dd>
-							
 
-						
-					</dl>
-				</div>
-				<div class="col-md-4">
-					<h6>2009 - 2011</h6>
-				</div>
-			</div>
-			
-			<div class="row page-header">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>Adobe Systems, Audition</h5>
-				</div>
-				<div class="col-md-4">
-					<dl>
-						
-						<dt>Wrote scripting engine to support QE automation</dt>
 
-							
-							<dd>- ECMAScript engine for replaying UI interactions to drive QE workflows</dd>
-							
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <h6>2015 - current</h6>
+        </div>
+      </div>
 
-						
-						<dt>Cross-team test reporting service</dt>
+      <div class="row page-header">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Adobe Systems, Creative Cloud</h5>
+        </div>
+        <div class="col-md-4">
+          <dl>
 
-							
-							<dd>- Aggregate validation results</dd>
-							
-							<dd>- Automated reporting</dd>
-							
-							<dd>- Trend analysis</dd>
-							
+            <dt>APIs and supporting services for the sharing and collaboration of creative content.</dt>
 
-						
-					</dl>
-				</div>
-				<div class="col-md-4">
-					<h6>2007 - 2009</h6>
-				</div>
-			</div>
-			
-		</div>
 
-		<!-- TECH -->
-		<section name="technology"></section>
-		<div class="container tech">
-			<div class="row">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>Technology</h5>
-				</div>
-				<div class="col-md-4">
-					<p>I’ve shipped production applications and services using Golang, Javascript, node.js, and C++, mostly utilizing AWS and Docker. I have passing knowledge of GCE.</p>
-				</div>
-			</div>
-		</div>
+              <dd>- Globally distributed and highly scalable micro services that are mostly written in Go</dd>
 
-		<!-- EDU -->
-		<section name="education"></section>
-		<div class="container edu">
-			<div class="row">
-				<div class="col-md-3 col-md-offset-1">
-					<h5>B.S. in Computer Science</h5>
-				</div>
-				<div class="col-md-4">
-					<p>Portland State University</p>
-				</div>
-			</div>
-		</div>
+              <dd>- Workers that support fan-out of jobs based on events and notifications as aggregated from various sources</dd>
 
-	</body>
+
+
+            <dt>Port Creative Cloud's aging Ruby infrastructure to node.js.</dt>
+
+
+              <dd>- Break apart Ruby monolith into node.js based micro services</dd>
+
+
+
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <h6>2012 - 2015</h6>
+        </div>
+      </div>
+
+      <div class="row page-header">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Adobe Systems, DVA Tools, Adobe Media Encode</h5>
+        </div>
+        <div class="col-md-4">
+          <dl>
+
+            <dt>Video validation and reporting infrastructure</dt>
+
+
+              <dd>- Provides an automated service by which our desktop applications can submit video samples that are analyzed, frame by frame, reporting any perceptual artifacts, distortions, or color variations</dd>
+
+
+
+            <dt>Performance automation for our video-based desktop applications</dt>
+
+
+              <dd>- Per-build performance tracking and alerting of media engine</dd>
+
+
+
+            <dt>Advisory role supporting various teams’ automation efforts</dt>
+
+
+              <dd>- Tool choices</dd>
+
+              <dd>- Determine what to track</dd>
+
+              <dd>- Systems design</dd>
+
+
+
+            <dt>Media catalog service</dt>
+
+
+              <dd>- Create a repository for internal media resources used in software validation</dd>
+
+              <dd>- Search via Elasticsearch</dd>
+
+              <dd>- Automatic tagging and organization</dd>
+
+
+
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <h6>2012 - 2011</h6>
+        </div>
+      </div>
+
+      <div class="row page-header">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Adobe Systems, Mediacore</h5>
+        </div>
+        <div class="col-md-4">
+          <dl>
+
+            <dt>Bootstrap automated validation framework</dt>
+
+
+              <dd>- Validation media imports and exporters</dd>
+
+              <dd>- Sample accurate frame analysis</dd>
+
+
+
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <h6>2009 - 2011</h6>
+        </div>
+      </div>
+
+      <div class="row page-header">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Adobe Systems, Audition</h5>
+        </div>
+        <div class="col-md-4">
+          <dl>
+
+            <dt>Wrote scripting engine to support QE automation</dt>
+
+
+              <dd>- ECMAScript engine for replaying UI interactions to drive QE workflows</dd>
+
+
+
+            <dt>Cross-team test reporting service</dt>
+
+
+              <dd>- Aggregate validation results</dd>
+
+              <dd>- Automated reporting</dd>
+
+              <dd>- Trend analysis</dd>
+
+
+
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <h6>2007 - 2009</h6>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TECH -->
+    <section name="technology"></section>
+    <div class="container tech">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>Technology</h5>
+        </div>
+        <div class="col-md-4">
+          <p>I’ve shipped production applications and services using Golang, Javascript, node.js, and C++, mostly utilizing AWS and Docker. I have passing knowledge of GCE.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDU -->
+    <section name="education"></section>
+    <div class="container edu">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+          <h5>B.S. in Computer Science</h5>
+        </div>
+        <div class="col-md-4">
+          <p>Portland State University</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
